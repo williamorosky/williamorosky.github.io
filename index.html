@@ -6,18 +6,42 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/main.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/main.css">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
+
 	<title>William O'Rosky</title>
 </head>
 <body>
 	<header>
-		<img id="name-img" src="img/name.png">
+		<img id="name-img" src="img/name.svg" alt="Picture">
 	</header>
-
+	<section class="cd-container">
+		<div class="col-md-12">
+			<div class="pull-right">
+				<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Filters
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu pull-right">
+						<li><a href="#">All</a></li>
+						<li><a href="#">Career Development</a></li>
+						<li><a href="#">Personal Projects</a></li>
+						<li><a href="#">Failures</a></li>
+						<li><a href="#">Successes</a></li>
+						<li><a href="#">Defining Moments</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	
 	<section id="cd-timeline" class="cd-container">
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">

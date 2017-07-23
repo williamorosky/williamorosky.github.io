@@ -1,3 +1,13 @@
 #name-img {
-	
+	padding-top: 15px;
+    padding-right: 25%;
+	padding-left: 25%;
+	vertical-align: middle;
+}
+
+.dropdown {
+	padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 0;
+	vertical-align: middle;
 }
