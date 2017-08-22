@@ -3,6 +3,15 @@
 	background-color: #3F51B5;
 }
 
+#footer-custom {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #3F51B5;
+	text-align: center;
+}
 
 #body-custom {
 	background-color: #3F51B5;
@@ -21,4 +30,5 @@
     padding-bottom: 0;
 	vertical-align: middle;
 }
+
 
